@@ -23,6 +23,9 @@ TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := cortex-a15
 
+# Build
+USE_CLANG_PLATFORM_BUILD := true
+
 # Board
 TARGET_BOARD_PLATFORM := tegra
 TARGET_NO_BOOTLOADER := true
